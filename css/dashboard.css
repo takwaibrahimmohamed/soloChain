@@ -1,0 +1,60 @@
+.DashProfit{
+   padding: 30px 0;
+    background-color: #241c31;
+}
+.DashProfit .content{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+color: white;
+
+}
+.DashProfit .walletBallance{
+display: flex;
+flex-direction: column;
+gap: 10px;   
+}
+.DashProfit .walletBallance p,.DashProfit .walletBallance h3{
+    padding: 0;
+    margin: 0;
+   text-transform: capitalize;
+
+}
+.DashProfit .walletBallance .profText{
+   font-size: 10px;
+   font-weight: 500;
+}
+.DashProfit .walletBallance .profhead{
+   font-size: 11px;
+   font-weight: 900;
+}
+
+
+
+.DashProfit .wither{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #332941;
+border-radius: 10px;
+height: 40px;
+padding: 0 5px;
+margin-top: 15px;
+text-transform: capitalize;
+padding-left: 10px;
+
+}
+.DashProfit .wither .text{
+font-size: 12px;
+color: white;
+}
+.DashProfit .wither .btnWither{
+background-color: #7603ff;
+border: none;
+border-radius: 7px;
+padding: 10px 35px;
+color: white;
+text-transform: capitalize;
+font-size: 11px;
+
+}
