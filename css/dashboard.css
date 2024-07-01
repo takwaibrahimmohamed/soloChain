@@ -36,26 +36,29 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: #332941;
-border-radius: 10px;
-height: 40px;
+border-radius: 7px;
+height: 30px;
 padding: 0 5px;
 margin-top: 15px;
 text-transform: capitalize;
 padding-left: 10px;
+padding-right: 3px;
 
 }
 .DashProfit .wither .text{
 font-size: 12px;
 color: white;
+font-weight: 900;
 }
 .DashProfit .wither .btnWither{
 background-color: #7603ff;
 border: none;
 border-radius: 7px;
-padding: 10px 35px;
+padding: 6px 40px;
 color: white;
 text-transform: capitalize;
 font-size: 11px;
+font-weight: 600;
 
 }
 /* charts */
@@ -106,7 +109,7 @@ transform: translateY(-40%);
   height: 30%;
   /* margin: 0 1em; */
   bottom: 0%;
-  left: 0;
+  left: 2%;
   animation: slideUp 1s ease forwards;
 }
 
@@ -115,8 +118,8 @@ transform: translateY(-40%);
     content: "0.55%";
     position: absolute;
     top: -16px;
-    color: #6c6673;
-    font-size: 8px;
+    color: white;
+    font-size: 7px;
     left: 0%;
     transform: translateX(-50%);
     font-weight: 700;
@@ -125,16 +128,16 @@ transform: translateY(-40%);
   /* animation-delay: 1s; */
   background: #5f5172;
   height: 40%;
-  left: 13%;
+  left: 15%;
   animation: slideUp2 1s ease forwards;
 }
 .charts .contain:nth-of-type(2)::after{
     content: "0.65%";
     position: absolute;
     top: -16px;
-    color: #6c6673;
-    font-size: 8px;
-    left: 0%;
+    color: white;
+    font-size: 7px;
+    left:10%;
     transform: translateX(-50%);
     font-weight: 700;
 }
@@ -142,68 +145,68 @@ transform: translateY(-40%);
   /* animation-delay: 1s; */
   background: #7603ff;
   height: 50%;
-  left: 26%;
+  left: 28%;
   animation: slideUp3 1s ease forwards;
 }
 .charts .contain:nth-of-type(3)::after{
     content: "0.80%";
     position: absolute;
     top: -16px;
-    color: #6c6673;
-    font-size: 8px;
+    color: white;
+    font-size: 7px;
     left: 0%;
     transform: translateX(-50%);
     font-weight: 700;
 }
 .charts .contain:nth-of-type(4) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 39%;
+  left: 41%;
 }
 
 .charts .contain:nth-of-type(5) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 52%;
+  left: 54%;
 }
 
 .charts .contain:nth-of-type(6) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 65%;
+  left: 67%;
 }
 .charts .contain:nth-of-type(7) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 78%;
+  left: 80%;
 }
 .charts .contain:nth-of-type(8) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 91%;
+  left: 93%;
 }
 .charts .contain:nth-of-type(9) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 104%;
+  left: 106%;
 }
 .charts .contain:nth-of-type(10) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 117%;
+  left: 119%;
 }
 .charts .contain:nth-of-type(11) {
   /* animation-delay: 1s; */
-  background: #5f5172;
+  background: #332941;
   height: 30%;
-  left: 130%;
+  left: 132%;
 }
 
 .charts .skill-name:nth-of-type(7) {
@@ -234,8 +237,9 @@ transform: translateY(-40%);
 .graghs .box .rang{
     color: #6c4fc3;
     text-transform: capitalize;
-    font-size: 9px;
+    font-size: 7px;
     letter-spacing: .5;
+    width: 168%;
 }
 @keyframes slideUp {
   0% {
@@ -394,13 +398,13 @@ justify-content: center;
 align-items: center;
 z-index: 11;
 opacity: .9;
-height: 25px;
+height: 30px;
   }
   .charts .circle .drawcircl::before{
     content: "";
     position: absolute;
-    width: 20px;
-    height: 45px;
+    width: 15px;
+    height: 35px;
     background-color: #241c31;
     left: -11px;
     border-radius: 10px;
@@ -410,8 +414,8 @@ height: 25px;
   .charts .circle .drawcircl::after{
     content: "";
     position: absolute;
-    width: 20px;
-    height: 45px;
+    width: 15px;
+    height: 35px;
     background-color: #241c31;
     right: -11px;
     border-radius: 10px;
@@ -506,6 +510,7 @@ margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    font-size: 8px;
 }
 .collectbonus .withdraw{
     width: 100%;
@@ -518,7 +523,7 @@ padding: 10px 0;
 font-size: 12px;
 }
 .collectbonus .bonustext{
-    font-size: 10px;
+    font-size: 8px;
     padding: 0 10px;
     position: relative;
     text-transform: capitalize;
@@ -551,7 +556,7 @@ text-transform: capitalize;
     letter-spacing: .5px;
 }
 .collectbonus .colect p{
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 100;
     letter-spacing: .5px;
 }
@@ -581,6 +586,7 @@ text-transform: capitalize;
     display: block;
     text-align: end;
     width: 80%;
+   font-size: 6px;
 }
 .participation h3{
 color: white;
